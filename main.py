@@ -58,8 +58,12 @@ def tokopedia_scrape(katakunci):
             "product_price": price_product,
             "product_description": product_desc,
         }
-        print(dict)
-        df = pd.DataFrame(dict, columns=["Product Photo", "Product Name", "Product Price", "Product Description"])
+        df = pd.DataFrame(
+            {
+                "product_name":name_product,
+                "product_price": price_product,
+                "product_description": product_desc,
+            })
         df.to_csv("tokopedia_product.csv", index=False)
         
         driver.quit()
