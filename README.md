@@ -2,7 +2,7 @@
 
 Project is created with 
 * [Python Selenium 4.1.3](https://selenium-python.readthedocs.io/installation.html)
-* Python 3.9
+* [Python 3.9](https://www.python.org/downloads/release/python-390/)
 
 How to use or run this app on your computer?
 ### 1. Install the requirement.txt on your computer using pip
