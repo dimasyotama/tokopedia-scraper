@@ -17,4 +17,4 @@ python app.py
 ```
 
 
-#### Note : The scraping program it's for collect data when you type the store name, css attribute will be change quickly because it's very dynamic
+#### Note : The scraping program it's for collect data when you type the store name, The Attribute maybe doesn't same as last month.If the program it's not working so change the css attribute only
